@@ -9,7 +9,7 @@ import javax.servlet.http.*;
 import java.io.IOException;
 
 @WebServlet(description = "This servlet ensure registration and " +
-        "then subsequent logins", urlPatterns = {"/home"})
+        "then subsequent logins", urlPatterns = {"/"})
 
 public class UnivHTTPServlet extends HttpServlet {
     public void init(ServletConfig conf) throws ServletException {

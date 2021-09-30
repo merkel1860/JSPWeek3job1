@@ -11,6 +11,7 @@
 <html>
 <head>
     <title>Title</title>
+    <link rel="stylesheet"  href="css/loginstyle.css" type="text/css">
 </head>
 <body>
 <%@ include file="emblem.html" %>
@@ -54,7 +55,7 @@
         if(DAO.getDAOInstance().getaStudent().getCourses().size() > 0){
     %>
     <table id="tableSelectedCourse" border="2">
-        <tr id="captionRow" style="font-style: italic"><td>Selected Courses</td></tr>
+        <tr id="captionRow" style=><td>Selected Courses</td></tr>
     <%
            for (String s : DAO.getDAOInstance().getaStudent().getCourses()){
                out.println("<tr><td>"+ s +"</td></tr>");
@@ -66,13 +67,9 @@
 </article>
 
 <aside>
-    <%
-//        if (!basketCourse.isEmpty()){
-    %>
-    <h3>Your total is <% DAO.getDAOInstance().getaStudent().getCourses().size();  %> courses </h3>
-    <%
-//        }
-    %>
+    <h3>Your total is <%= DAO.getDAOInstance().
+            getaStudent().getCourses().size() %> courses </h3>
+
 </aside>
 
 <section>

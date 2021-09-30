@@ -9,12 +9,13 @@
 <html>
 <head>
     <title>REGISTRATION</title>
+    <link rel="stylesheet"  href="css/loginstyle.css" type="text/css">
 </head>
 <body>
 <%@ include file="emblem.html" %>
 <article>
     <h3>Enrollment for new students</h3>
-    <form id="registerForm" action="profile.jsp" method="post">
+    <form id="registerForm" action="home" method="post">
         <input type="hidden" name="do_this" value="adduser">
         <table id="tableform">
             <tr>

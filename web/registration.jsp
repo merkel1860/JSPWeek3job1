@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>REGISTRATION</title>
+    <link rel="stylesheet"  href="css/loginstyle.css" type="text/css">
 </head>
 <body>
 <%@ include file="emblem.html" %>

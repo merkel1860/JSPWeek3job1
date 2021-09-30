@@ -1,0 +1,22 @@
+
+.tableSelectedCourse {
+    font-size: medium;
+    font-size-adjust: inherit;
+}
+body{
+    background-color: red;
+}
+.captionRow {
+    font-style: italic;
+    font-weight: bold;
+}
+root {
+    display: block;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    font-variant: normal;
+    color: navy;
+    background-color: #ccffcc;
+    font-family: Georgia,'Times New Roman',times,serif;
+}
