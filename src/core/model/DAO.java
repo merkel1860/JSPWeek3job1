@@ -7,6 +7,7 @@ import java.util.Vector;
 public class DAO {
     private static DAO instance = new DAO();
     private List<Student> studentList;
+    private Student aStudent;
     private Vector<String> courseList = new Vector<String>();
 
 
@@ -24,6 +25,15 @@ public class DAO {
         courseList.addElement("Operating System");
         courseList.addElement("Cloud Computing");
         courseList.addElement("Algebra I");
+        aStudent = new Student();
+    }
+
+    public Student getaStudent() {
+        return aStudent;
+    }
+
+    public void setaStudent(Student aStudent) {
+        this.aStudent = aStudent;
     }
 
     public static DAO getDAOInstance(){return instance;}
