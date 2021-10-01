@@ -50,8 +50,7 @@ public class UnivHTTPServlet extends HttpServlet {
             RequestDispatcher rd = sc.getRequestDispatcher("/profile.jsp");
             rd.forward(req, resp);
 //            resp.sendRedirect("/JSPWeek3job1_war_exploded/profile.jsp");
-        }
-        if (do_this.compareToIgnoreCase("addcourse") == 0) {
+        } else if (do_this.compareToIgnoreCase("addcourse") == 0) {
             log("Here we are...Stage 3");
             System.out.println("Here we are...Stage 3");
             String currentCourse = req.getParameter("course");

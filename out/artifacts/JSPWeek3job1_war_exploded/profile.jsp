@@ -11,7 +11,9 @@
 <html>
 <head>
     <title>Title</title>
-    <link rel="stylesheet"  href="css/loginstyle.css" type="text/css">
+    <style type="text/css">
+        <%@ include file="css/loginstyle.css" %>
+    </style>
 </head>
 <body>
 <%@ include file="emblem.html" %>
@@ -55,7 +57,7 @@
         if(DAO.getDAOInstance().getaStudent().getCourses().size() > 0){
     %>
     <table id="tableSelectedCourse" border="2">
-        <tr id="captionRow" style=><td>Selected Courses</td></tr>
+        <tr id="captionRow" class="captionRow"><td>Selected Courses</td></tr>
     <%
            for (String s : DAO.getDAOInstance().getaStudent().getCourses()){
                out.println("<tr><td>"+ s +"</td></tr>");

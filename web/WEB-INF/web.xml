@@ -22,4 +22,5 @@
         <url-pattern>/css/*</url-pattern>
         <url-pattern>/home</url-pattern>
     </servlet-mapping>
+
 </web-app>

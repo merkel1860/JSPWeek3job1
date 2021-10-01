@@ -1,22 +1,40 @@
 
-.tableSelectedCourse {
+body {
+    background-color: moccasin;
     font-size: medium;
-    font-size-adjust: inherit;
 }
-body{
-    background-color: red;
+
+h1, h2, h3, b {
+    color: black;
 }
-.captionRow {
-    font-style: italic;
-    font-weight: bold;
+
+h1 {
+    font-size: 22px;
 }
-root {
-    display: block;
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
     font-size: 14px;
-    font-style: italic;
-    font-weight: normal;
-    font-variant: normal;
-    color: navy;
-    background-color: #ccffcc;
-    font-family: Georgia,'Times New Roman',times,serif;
+}
+
+p {
+    font-size: 12px;
+}
+
+a {
+    color: black;
+}
+
+.line {
+    height: 1px;
+    background-color: #525D76;
+    border: none;
+}
+.captionRow{
+    font-weight: bold;
+    background-color: gray;
+    align-content: center;
 }

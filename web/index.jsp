@@ -1,15 +1,10 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: nebel
-  Date: 9/23/21
-  Time: 6:59 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
     <title>Welcome to Univ. Plateform</title>
-    <link rel="stylesheet"  href="../css/loginstyle.css" type="text/css">
+    <style type="text/css">
+      <%@ include file="css/loginstyle.css" %>
+    </style>
   </head>
   <body>
   <%@ include file="emblem.html" %>
@@ -28,7 +23,6 @@
       Disculpame de esa cosa. Se que lucia muy contento, pero todo en tiempo era pensando en ti.
     </p>
   </article>
-
   <%@ include file="footer_page.html" %>
   </body>
 </html>
